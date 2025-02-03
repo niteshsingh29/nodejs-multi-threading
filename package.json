@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-multi-threading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:node_with_cluster": "node ./cluster/node_with_cluster/cluster.js",
+    "test:node_without_cluster": "node ./cluster/node_without_cluster/index.js",
+    "test:node_with_worker_thread": "node ./worker-thread/node_with_worker_thread/index.js",
+    "test:node_without_worker_thread": "node ./worker-thread/node_without_worker_thread/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
