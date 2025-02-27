@@ -8,6 +8,7 @@ console.log(
 );
 
 app.get("/non-blocking/", (req, res) => {
+    console.log('req received ====>')
     res.status(200).send("This page is non-blocking");
 });
 
